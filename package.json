@@ -1,0 +1,17 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Esse sitema é um local para programadores encontrarem vagas de trabalho",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunities"
+  ],
+  "author": "Leone <leonesilva.10@gmail.com>",
+  "license": "MIT"
+}
