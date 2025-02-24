@@ -5,14 +5,14 @@ const Job = require('../models/Job')
 //add job via post
 router.post('/add', (req, res)=> {
 
-  let(title , salary , company , description , email , new_job) = req.body
+  let {title , salary , company , description , email , new_job} = req.body
 
-  //inserir
+  //insert
   Job.create({
     title,
     description,
-    salray,
-    compnay,
+    salary,
+    company,
     email,
     new_job
   })
